@@ -12,8 +12,14 @@ h1 {
     font-family: Trebuchet MS;
 }
 
+h4 {
+	 color: #1670E6;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
 p {
-    color: #1670E6;
+    color: black;
     font-family: Trebuchet MS;
     font-size: 14px;
     text-align: center;
@@ -36,11 +42,47 @@ a {
     margin: auto;
     width: 60%;
 }
+
+.Losers img {
+	display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.Finally img {
+	display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.Chart img {
+	display: block;
+    margin: auto;
+    width: 60%;
+}
+
+table {
+	border-collapse: collapse;
+    margin: auto;
+}
+
+table tr td {
+	border: 1px solid black;
+    text-align: center;
+}
+
+table th {
+	border: 1px solid black;
+    text-align: center;
+}
+
 </style>
 </head>
 <body>
 
 <h1>Synthesis One</h1>
+
+<h4>By Katie Osborne</h4>
 
 <hr style: color= #1670E6>
 
@@ -58,7 +100,57 @@ a {
 
 <p>The two politicians have both taken very different approaches to the presidency and each have radically different views. Those views have been met with a lot of anger and hatred, dividing our country even more than it already is. In order to combat this, I decided to see what words each man used frequently in their time as president. I didn't expect to find many similarities, since Trump is a big fan of calling people "losers" and "sad" much more than he seems to be interested in talking about actual public policies.</p>
 
-<p>To do this, I used a website that analyzes text to create word clouds: an array of words of different sizes based on usage. <a href="http://tagcrowd.com/">Tag Crowd</a> allowed me to enter text and gave me back the top 15 most used words (beyond those common in the English language) from the data I submitted. The data is certainly somewhat skewed because Donald Trump has over 300 more tweets just in the time since he had been elected president in November than the all the the tweets that Barack Obama ever posted on his account since its creation in 2015. 
+<div class="Losers">
+<img src="https://www.presidentials2016.com/wp-content/uploads/2015/05/Donald-Trump-Memorial-Tweet.png">
+</div>
+
+<p>To do this, I used a website that analyzes text to create word clouds: an array of words of different sizes based on usage. <a href="http://tagcrowd.com/">Tag Crowd</a> allowed me to enter text and gave me back the top 15 most used words (beyond those common in the English language) from the data I submitted. The data is certainly somewhat skewed because Donald Trump has over 300 more tweets just in the time since he had been elected president in November than the all the the tweets that Barack Obama ever posted on his account since its creation in 2015.</p>
+
+<div class="Finally">
+<img src="http://b945live.com/wp-content/uploads/sites/7/2015/05/obama.jpg">
+</div>
+
+<p>After collecting that data, I was able to plug those numbers into Python using the "matplotlib" program and found that of each president's top 15 most used words on Twitter, five of them were the same. Their usage level was not exaclty the same, but similar enough to display on this chart. Here, we can see that although both men seem to be complete opposites, that their main topics of discussion, as least online, are similar. The red bars represent Donald Trump's usage of the word and the blue bars represent Obama's usage of the word.</p>
+
+<div class="Chart">
+<img src="https://pbs.twimg.com/media/C5wFMuRVMAArx1o.jpg:large">
+</div>
+
+<p>Below is the exact data I collected from the wordcloud software, showing the usage numbers more clearly.</p>
+
+<table style="width:50%">
+  <tr>
+    <th>Word</th>
+    <th>Usage: Trump</th> 
+    <th>Usage: Obama</th>
+  </tr>
+  <tr>
+    <td>"People"</td>
+    <td>55</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>"Thank"</td>
+    <td>52</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>"Today"</td>
+    <td>29</td>
+    <td>36</td>
+  </tr>
+  <tr>
+    <td>"Vote"</td>
+    <td>23</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>"America"</td>
+    <td>17</td>
+    <td>70</td>
+  </tr>
+</table>
+
 
 </body>
 </html>
