@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #7806B5;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
+p {
+    color: #1670E6;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<h1>Synthesis One</h1>
+<p>For this assignment, I looked at tweets from both Donald Trump and Barack Obama. I was interested in looking at what words they were using most in their tweets.</p>
+
+</body>
+</html>
