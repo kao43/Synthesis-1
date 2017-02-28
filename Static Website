@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #7806B5;
+    color: #1670E6;
     text-align: center;
     font-family: Trebuchet MS;
 }
@@ -16,13 +16,49 @@ p {
     color: #1670E6;
     font-family: Trebuchet MS;
     font-size: 14px;
+    text-align: center;
+    padding-left: 100 px;
+    padding-right: 100 px;
+}
+
+a {
+	color: #E232AD;
+}
+
+.Twitter img {
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.Presidents img {
+	display: block;
+    margin: auto;
+    width: 60%;
 }
 </style>
 </head>
 <body>
 
 <h1>Synthesis One</h1>
-<p>For this assignment, I looked at tweets from both Donald Trump and Barack Obama. I was interested in looking at what words they were using most in their tweets.</p>
+
+<hr style: color= #1670E6>
+
+<p>For this assignment, I looked at tweets from both Donald Trump and Barack Obama. I was interested in looking at what words they were using most in their tweets.</p> 
+
+<div class="Twitter">
+<img src="https://img.clipartfest.com/314d2458c4d5341f2cb7b3860e977fad_by-using-twitter-if-you-twitter-logo-clipart_320-260.png">
+</div>
+
+<p>For Obama, I analyzed tweets from his <a href="https://archive.org/download/ObamaWhiteHousePotusTwitterData">@POTUS</a> account, which was active from May 18th, 2015 up until the 11th of November, 2016 which has now become the official Twitter account for Donald Trump, despite his frequent postings to his "personal" account <a href="https://twitter.com/realDonaldTrump">@realdonaldtrump</a>. I used tweets from this account from the date of his election on November 8th to present, thanks to <a href="http://www.trumptwitterarchive.com/#/">Trump Twitter Archive</a> (raw data found <a href="https://github.com/bpb27/political_twitter_archive/tree/master/realdonaldtrump">here</a>). </p>
+
+<div class="Presidents">
+<img src="https://www.speakscore.net/assets/images/blog/obama-vs-trump.jpg">
+</div>
+
+<p>The two politicians have both taken very different approaches to the presidency and each have radically different views. Those views have been met with a lot of anger and hatred, dividing our country even more than it already is. In order to combat this, I decided to see what words each man used frequently in their time as president. I didn't expect to find many similarities, since Trump is a big fan of calling people "losers" and "sad" much more than he seems to be interested in talking about actual public policies.</p>
+
+<p>To do this, I used a website that analyzes text to create word clouds: an array of words of different sizes based on usage. <a href="http://tagcrowd.com/">Tag Crowd</a> allowed me to enter text and gave me back the top 15 most used words (beyond those common in the English language) from the data I submitted. The data is certainly somewhat skewed because Donald Trump has over 300 more tweets just in the time since he had been elected president in November than the all the the tweets that Barack Obama ever posted on his account since its creation in 2015. 
 
 </body>
 </html>
