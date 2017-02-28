@@ -80,7 +80,7 @@ table th {
 </head>
 <body>
 
-<h1>Synthesis One: Political Twitter Usage</h1>
+<h1>Political Twitter Usage</h1>
 
 <h4>By Katie Osborne</h4>
 
@@ -98,7 +98,7 @@ table th {
 <img src="https://www.speakscore.net/assets/images/blog/obama-vs-trump.jpg">
 </div>
 
-<p>The two politicians have both taken very different approaches to the presidency and each have radically different views. Those views have been met with a lot of anger and hatred, dividing our country even more than it already is. In order to combat this, I decided to see what words each man used frequently in their time as president. I didn't expect to find many similarities, since Trump is a big fan of calling people "losers" and "sad" much more than he seems to be interested in talking about actual public policies.</p>
+<p>The two politicians have both taken very different approaches to the presidency and each have radically different views. Those views have been met with a lot of anger and hatred, dividing our country even more than it already is. In order to explore this, I decided to see what words each man used frequently in their tweets during their time as president. I didn't expect to find many similarities, since Trump is a big fan of calling people "losers" and "sad" much more than he seems to be interested in talking about actual public policies.</p>
 
 <div class="Losers">
 <img src="https://www.presidentials2016.com/wp-content/uploads/2015/05/Donald-Trump-Memorial-Tweet.png">
@@ -110,7 +110,7 @@ table th {
 <img src="http://b945live.com/wp-content/uploads/sites/7/2015/05/obama.jpg">
 </div>
 
-<p>After collecting that data, I was able to plug those numbers into Python using the "matplotlib" program and found that of each president's top 15 most used words on Twitter, five of them were the same. Their usage level was not exaclty the same, but similar enough to display on this chart. Here, we can see that although both men seem to be complete opposites, that their main topics of discussion, as least online, are similar. The red bars represent Donald Trump's usage of the word and the blue bars represent Obama's usage of the word.</p>
+<p>After collecting that data, I was able to plug those numbers into Python using the "matplotlib" program and found that of each president's top 15 most used words on Twitter, five of them were the same. Their usage level was not exaclty the same, but similar enough to display on this chart. Here, we can see that although both men seem to be complete opposites, that their main topics of discussion, at least online, are similar. The red bars represent Donald Trump's usage of the word and the blue bars represent Obama's usage of the word.</p>
 
 <div class="Chart">
 <img src="https://pbs.twimg.com/media/C5wFMuRVMAArx1o.jpg:large">
